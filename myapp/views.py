@@ -10,3 +10,8 @@ def hello(request):
 def login(request):
    text = """<h1>Login</h1> User name: <input type="text" nam="user" /> <BR> Password: <input type="password" nam="password" /> """
    return HttpResponse(text)
+
+
+def login2(request):
+   text = """<h1>Login</h1> User name: <input type="text" nam="user" /> <BR> Password: <input type="password" nam="password" /> """
+   return HttpResponse(text)
